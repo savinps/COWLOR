@@ -1,0 +1,3 @@
+Identifier,Quantity,System,Partition Type,Active Cores,Storage (GB),CPU Utilization,Memory (MB),Disk Reads Per Second,Bytes Per Read Op,Disk Writes Per Second,Bytes Per Write Op,Network (MB/S),Network Ops/Sec,Overhead,Concurrency
+SZATAP25,1,Power 595 Power6 5.0GHz 32MB (32ch/64co),LPAR Shared Processor Uncapped,4,0,40,6144,0,0,0,0,0,0,5,70
+SZAUDB13,1,Power 595 Power6 5.0GHz 32MB (32ch/64co),LPAR Shared Processor Uncapped,2,0,61,16384,0,0,0,0,0,0,5,70
