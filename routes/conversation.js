@@ -177,7 +177,7 @@ module.exports = function(app) {
         console.log("Posting to WLE");
 
 
-        var quote_sample= "Identifier,Quantity,System,Partition Type,Active Cores,Storage (GB),CPU Utilization,Memory (MB),Disk Reads Per Second,Bytes Per Read Op,Disk Writes Per Second,Bytes Per Write Op,Network (MB/S),Network Ops/Sec,Overhead,Concurrency\n" + + "100,1," + data.context.sysname + ",LPAR Shared Processor Uncapped," + data.context.nprocs + "," + data.context.nmem + "," + data.context.putil + ",6144,0,0,0,0,0,0,5,70";
+        var quote_sample= "Identifier,Quantity,System,Partition Type,Active Cores,Storage (GB),CPU Utilization,Memory (MB),Disk Reads Per Second,Bytes Per Read Op,Disk Writes Per Second,Bytes Per Write Op,Network (MB/S),Network Ops/Sec,Overhead,Concurrency\n 100,1," + data.context.sysname + ",LPAR Shared Processor Uncapped," + data.context.nprocs + "," + data.context.nmem + "," + data.context.putil + ",6144,0,0,0,0,0,0,5,70";
           console.log(quote_sample);
 
               // var myObj = [{"allocatedCores":8,"system":"S814-8286","procFamily":"POW8","HumanReableModelNo":"S814-8286-41A","MaxCore":8,"totalAllocatedRoundedCores":8,"numberofsystem":1,"name":"System#1","MinCore":8,"Flavour":"Tier #1","mhz":3720,"coresPerSocket":8}];

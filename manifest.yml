@@ -10,7 +10,7 @@ declared-services:
     label: text_to_speech
     plan: standard
 applications:
-- name: car-dashboard
+- name: COWLOR2
   command: npm start
   path: .
   memory: 512M
